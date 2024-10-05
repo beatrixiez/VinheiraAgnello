@@ -12,162 +12,167 @@
 
 <body>
 
-    <!-- header -->
+<!-- header -->
 
-    <header>
+<header>
 
-        <nav class="navbar">
+    <nav class="navbar">
 
-            <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 100%; display: flex; justify-content: center; align-items: center;">
-                <!-- logo -->
-                <a class="navbar-brand d-flex align-items-center" style="height: 100%; margin-right: auto;">
-                    <img src="../img/agnello_logo.svg" alt="Logo da Vinheira Agnello" style="max-height: 100%;">
-                </a>
-          
-                <!-- barra de pesquisa -->
-                <form class="d-flex align-items-center" role="search" style="height: 100%; width: 400px; margin-right: 6rem;">
-                    <div class="input-group w-100">
-                        <input class="form-control" type="search" placeholder="O que você procura?" aria-label="Search"
-                        style="border-top-left-radius: 50px; border-bottom-left-radius: 50px; height: 100%;">
-                        <button class="btn btn-link search-button" style="border-top-right-radius: 50px; border-bottom-right-radius: 50px; height: 100%;" type="button" onclick="window.location.href='vinhos.html'">
-                            <i class="bi bi-search"></i>
-                        </button>
+        <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 100%; display: flex; justify-content: center; align-items: center;">
+            <!-- logo -->
+            <a class="navbar-brand d-flex align-items-center" style="height: 100%; margin-right: auto;">
+                <img src="../img/agnello_logo.svg" alt="Logo da Vinheira Agnello" style="max-height: 100%;">
+            </a>
+        
+            <!-- barra de pesquisa -->
+            <form class="d-flex align-items-center" role="search" style="height: 100%; width: 400px; margin-right: 6rem;">
+                <div class="input-group w-100">
+                    <input class="form-control" type="search" placeholder="O que você procura?" aria-label="Search"
+                    style="border-top-left-radius: 50px; border-bottom-left-radius: 50px; height: 100%;">
+                    <button class="btn btn-link search-button" style="border-top-right-radius: 50px; border-bottom-right-radius: 50px; height: 100%;" type="button" onclick="window.location.href='vinhos.html'">
+                        <i class="bi bi-search"></i>
+                    </button>
+                </div>
+            </form>
+        
+            <!-- login e cesta -->
+            <span class="d-flex align-items-center account" style="height: 100%;">
+                <a href=""><i class="bi bi-person-circle user-icon" style="font-size: 2rem; margin-right: 0.5rem;"></i></a>
+                <div class="d-flex flex-column ms-2 login" style="font-size: 0.8rem; margin-right: 4rem;">
+                    <p class="mb-0">Bem-vindo(a)</p>
+                    <p class="mb-0"><b><a href="">Entre</a></b> ou <b><a href="">Cadastre-se</a></b></p>
+                </div>
+                <a href=""><i class="bi bi-basket2 ms-3 basket-icon" style="font-size: 2rem; margin-right: 1rem;"></i></a>
+            </span>
+        </div>
+        
+    </nav>
+        
+    <!-- menu com links de navegação -->
+    <div class="navlink" style="background-color: #E3C8B4;">
+        <ul class="nav nav-underline justify-content-center" >
+            <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./vinhos.html">Vinhos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./uva.html">Uva</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./paises.html">Países</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./promocoes.html">Promoções</a>
+            </li>
+            <li class="nav-item">
+            <a class="nav-link" href="./kits.html">Kits</a>
+            </li>
+        </ul>
+    </div>
+        
+</header>
+
+<!-- conteúdo -->
+
+<section>
+    <div class="container text-center">
+        <div class="header-section">
+            <h1 class="header-title">Uvas da Fazenda Agnello</h1>
+            <img src="../img/uva/uva1.png" alt="Plantação de uva" class="header-image">
+        </div>
+
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+            <div class="col d-flex flex-column align-items-center">
+                <img src="../img/uva/uva2.png" alt="Garrafa de vinha ao lado de uma taça com vinho e de um cacho de uvas roxas" class="img-fluid">
+            </div>
+            <div class="col d-flex flex-column align-items-center">
+                <h1>Cabernet Sauvignon</h1>
+                <p>Na Fazenda Agnello, a Cabernet Sauvignon ganha um toque especial graças ao nosso microclima exclusivo. O resultado são vinhos robustos, com camadas de frutas vermelhas maduras, toques sutis de especiarias e um elegante final amadeirado.</p>
+            </div>
+
+            <div class="col d-flex flex-column align-items-center">
+                <h1>Malbec</h1>
+                <p>Nossa Malbec é famosa por sua suavidade e sabores intensos. Com taninos delicados e notas de ameixas escuras e amoras, é o vinho ideal para quem busca uma experiência encorpada, com um toque de cacau no final.</p>
+            </div>
+            <div class="col d-flex flex-column align-items-center">
+                <img src="../img/uva/uva3.png" alt="Taça com vinho ao lado de uma garrafa" class="img-fluid">
+            </div>
+
+            <div class="col d-flex flex-column align-items-center">
+                <img src="../img/uva/uva4.png" alt="Taça com vinho em uma plantação de uvas" class="img-fluid">
+            </div>
+            <div class="col d-flex flex-column align-items-center">
+                <h1>Chardonnay</h1>
+                <p>Cultivada sob o sol generoso da nossa fazenda, a Chardonnay exibe frescor e elegância, com aromas cítricos e suaves notas de baunilha. Perfeita para harmonizar com frutos do mar e pratos leves, é uma escolha versátil e deliciosa.</p>
+            </div>
+
+            <div class="col d-flex flex-column align-items-center">
+                <h1>Tannat</h1>
+                <p>Uma uva de personalidade forte, o Tannat aqui na Fazenda Agnello revela toda a sua potência. Com taninos intensos e notas profundas de ameixas secas e café torrado, é um vinho estruturado que encanta os paladares mais exigentes.</p>
+            </div>
+            <div class="col d-flex flex-column align-items-center">
+                <img src="../img/uva/uva5.png" alt="Garrafas de vinho na estante de uma loja" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!-- rodapé -->
+
+<footer>
+
+    <div class="container-mlg text-center">
+        <div class="row">
+
+            <div class="col-sm">
+                
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Vinhos</a></li>
+                    <li><a href="#">Uva</a></li>
+                    <li><a href="#">Países</a></li>
+                    <li><a href="#">Promoções</a></li>
+                    <li><a href="#">Kits</a></li>
+                    <li><a href="#">Sobre Nós</a></li>
+                    <li><a href="#">Política de Privacidade</a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm">
+                <ul>
+                    <h1>Contato</h1>
+                    <li>(19) 3030-5080</li>
+                    <li><a href="mailto:sac@agnellovinhos.com">sac@agnellovinhos.com</a></li>
+                    <li>Rua Arnaldo Roque Brisque, 301 - Altos do Morumbi, Vinhedo - SP, 13280-000</li>
+                </ul>
+                <h1 class="social-media">Nossas Redes</h1>
+                <ul class="list-inline">
+                    <li class="list-inline-item"><a href=""><i class="bi bi-instagram"></i></a></li>
+                    <li class="list-inline-item"><a href=""><i class="bi bi-youtube"></i></a></li>
+                    <li class="list-inline-item"><a href=""><i class="bi bi-facebook"></i></a></li>
+                </ul>
+            </div>
+
+            <div class="col-sm">
+                <img src="../img/agnello_logo.svg" alt="Logo da Vinheira Agnello">
+                <h1>Inscreva-se na nossa <i>newsletter</i> gratuitamente</h1>
+                <form>
+                    <div class="input-group mb-3">
+                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="exemplo: tiago@bol.com" style="width: 70%;"> <!-- Ajustando a largura -->
+                        <button type="submit" class="btn btn-primary">Enviar</button>
                     </div>
                 </form>
-          
-                <!-- login e cesta -->
-                <span class="d-flex align-items-center account" style="height: 100%;">
-                    <a href=""><i class="bi bi-person-circle user-icon" style="font-size: 2rem; margin-right: 0.5rem;"></i></a>
-                    <div class="d-flex flex-column ms-2 login" style="font-size: 0.8rem; margin-right: 4rem;">
-                        <p class="mb-0">Bem-vindo(a)</p>
-                        <p class="mb-0"><b><a href="">Entre</a></b> ou <b><a href="">Cadastre-se</a></b></p>
-                    </div>
-                    <a href=""><i class="bi bi-basket2 ms-3 basket-icon" style="font-size: 2rem; margin-right: 1rem;"></i></a>
-                </span>
             </div>
             
-        </nav>
-         
-        <!-- menu com links de navegação -->
-        <div class="navlink" style="background-color: #E3C8B4;">
-            <ul class="nav nav-underline justify-content-center" >
-                <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./vinhos.html">Vinhos</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./uva.html">Uva</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="./paises.html">Países</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="./promocoes.html">Promoções</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="./kits.html">Kits</a>
-                </li>
-            </ul>
+
         </div>
-          
-    </header>
+    </div>
 
-    <!-- conteúdo -->
-
-    <section>
-
-        <div class="container text-center">
-
-            <div>
-                <h1>Uvas da Fazenda Agnello</h1>
-                <img src="../img/uva/uva1.png" alt="Plantação de uva">
-            </div>
-
-            <div class="row row-cols-2">
-
-                <div class="col"><img src="../img/uva/uva2.png" alt="Garrafa de vinha ao lado de uma taça com vinho e de um cacho de uvas roxas"></div>
-                <div class="col">
-                    <h1>Cabernet Sauvignon</h1>
-                    <p>Na Fazenda Agnello, a Cabernet Sauvignon ganha um toque especial graças ao nosso microclima exclusivo. O resultado são vinhos robustos, com camadas de frutas vermelhas maduras, toques sutis de especiarias e um elegante final amadeirado.</p>
-                </div>
-
-                <div class="col">
-                    <h1>Malbec</h1>
-                    <p>Nossa Malbec é famosa por sua suavidade e sabores intensos. Com taninos delicados e notas de ameixas escuras e amoras, é o vinho ideal para quem busca uma experiência encorpada, com um toque de cacau no final.</p>
-                </div>
-                <div class="col"><img src="../img/uva/uva3.png" alt="Taça com vinho ao lado de uma garrafa"></div>
-
-                <div class="col"><img src="../img/uva/uva4.png" alt="Taça com vinho em uma plantação de uvas"></div>
-                <div class="col">
-                    <h1>Chardonnay</h1>
-                    <p>Cultivada sob o sol generoso da nossa fazenda, a Chardonnay exibe frescor e elegância, com aromas cítricos e suaves notas de baunilha. Perfeita para harmonizar com frutos do mar e pratos leves, é uma escolha versátil e deliciosa.</p>
-                </div>
-
-                <div class="col">
-                    <h1>Tannat</h1>
-                    <p>Uma uva de personalidade forte, o Tannat aqui na Fazenda Agnello revela toda a sua potência. Com taninos intensos e notas profundas de ameixas secas e café torrado, é um vinho estruturado que encanta os paladares mais exigentes.</p>
-                </div>
-                <div class="col"><img src="../img/uva/uva5.png" alt="Garrafas de vinho na estante de uma loja"></div>
-
-            </div>
-        </div>
-
-    </section>
-
-    <!-- rodapé -->
-
-    <footer>
-
-        <div class="container-mlg text-center">
-            <div class="row">
-    
-                <div class="col-sm">
-                    
-                    <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Vinhos</a></li>
-                        <li><a href="#">Uva</a></li>
-                        <li><a href="#">Países</a></li>
-                        <li><a href="#">Promoções</a></li>
-                        <li><a href="#">Kits</a></li>
-                        <li><a href="#">Sobre Nós</a></li>
-                        <li><a href="#">Política de Privacidade</a></li>
-                    </ul>
-                </div>
-    
-                <div class="col-sm">
-                    <ul>
-                        <h1>Contato</h1>
-                        <li>(19) 3030-5080</li>
-                        <li><a href="mailto:sac@agnellovinhos.com">sac@agnellovinhos.com</a></li>
-                        <li>Rua Arnaldo Roque Brisque, 301 - Altos do Morumbi, Vinhedo - SP, 13280-000</li>
-                    </ul>
-                    <h1 class="social-media">Nossas Redes</h1>
-                    <ul class="list-inline">
-                        <li class="list-inline-item"><a href=""><i class="bi bi-instagram"></i></a></li>
-                        <li class="list-inline-item"><a href=""><i class="bi bi-youtube"></i></a></li>
-                        <li class="list-inline-item"><a href=""><i class="bi bi-facebook"></i></a></li>
-                    </ul>
-                </div>
-    
-                <div class="col-sm">
-                    <img src="../img/agnello_logo.svg" alt="Logo da Vinheira Agnello">
-                    <h1>Inscreva-se na nossa <i>newsletter</i> gratuitamente</h1>
-                    <form>
-                        <div class="input-group mb-3">
-                            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="exemplo: tiago@bol.com" style="width: 70%;"> <!-- Ajustando a largura -->
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </div>
-                    </form>
-                </div>
-                
-    
-            </div>
-        </div>
-    
-    </footer>
+</footer>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
