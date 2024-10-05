@@ -6,6 +6,7 @@ body {
     padding: 0;
 }
 
+
 /* header */
 
 .navbar {
@@ -41,6 +42,41 @@ body {
 
 /* section */
 
+div.container {
+    margin: 2rem auto;
+}
+
+.header-section {
+    text-align: center;
+}
+
+.header-title {
+    border-bottom: 1px solid #000;
+    padding-bottom: 10px;
+    width: 60%;
+    display: inline-block;
+}
+
+.header-image {
+    max-width: 100%;
+    height: auto;
+    margin: 2rem auto;
+    display: block;
+}
+
+.col {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
 
 
 /* footer */
@@ -80,7 +116,7 @@ footer {
     margin-bottom: 2rem;
 }
 
-h1 {
+footer h1 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
     color: #BF2604;
