@@ -39,8 +39,143 @@ body {
     color: #BF2604;
 }
 
+
 /* section */
 
+section {
+    font-family: 'AbeeZee', sans-serif;
+}
+
+.col-3, .col-9 {
+    padding: 20px;
+}
+
+h1 {
+    font-weight: bold;
+    color: #0C091A;
+    font-size: 32px;
+}
+
+.col-3 h1 {
+    text-align: left;
+    font-size: 20px;
+    color: #333;
+    margin-top: 0.5rem;
+}
+
+.priceFilter {
+    margin-top: 2rem;
+}
+
+.container.emailCapture {
+    border-radius: 10px;
+    background-color: #D9D9D9;
+    padding: 0.8rem 0 0 0;
+}
+
+.form-check {
+    text-align: left !important;
+}
+
+.form-check-label {
+    font-size: 16px;
+    color: #0C091A;
+    padding-left: 0.5rem;
+}
+
+.form-check-input {
+    border-color: #0C091A;
+}
+
+form input#inputEmail {
+    border-radius: 50px;
+    border-color: #0C091A;
+}
+
+form button.emailButton {
+    background-color: #FF6600;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.col-9 h1 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.container .col {
+    margin-right: -1rem;
+}
+
+.container .row:first-child {
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    color: #0C091A;
+}
+
+.container .row:first-child p {
+    margin: 0;
+    color: #0C091A;
+}
+
+.card {
+    border: 1px solid #D9D9D9;
+    margin-bottom: 10px;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card img {
+    border-radius: 10px;
+    max-height: 250px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.card-body {
+    text-align: left;
+}
+
+.card-title {
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 15px;
+}
+
+.card-text {
+    font-size: 14px;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.card-text b {
+    color: #BF2604;
+}
+
+.card a {
+    background-color: #008B25;
+    color: #000;
+    padding: 5px 15px;
+    border-radius: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 1rem;
+}
+
+.card a:hover {
+    background-color: #00AA00;
+    color: #000;
+}
 
 
 /* footer */
@@ -80,7 +215,7 @@ footer {
     margin-bottom: 2rem;
 }
 
-h1 {
+footer h1 {
     font-size: 1.6rem;
     margin-bottom: 1rem;
     color: #BF2604;
