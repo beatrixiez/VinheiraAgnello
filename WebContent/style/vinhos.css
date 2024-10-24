@@ -20,7 +20,6 @@ body {
 
 .account {
     color: #FFF;
-    font-family: 'AbeeZee', sans-serif;
 }
 
 .login a {
@@ -255,4 +254,18 @@ footer ul li a:hover {
 
 .btn-primary:hover {
     background-color: #a32a02;
+}
+
+/* scroll-bar*/
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0C091A; 
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: #BF2604; 
 }

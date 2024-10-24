@@ -1,78 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!doctype html>
 <html lang="pt-br">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Vinhos | Vinheira Agnello</title>
+    <title>Promoções | Vinheira Agnello</title>
     <link rel="shortcut icon" href="../img/agnello_logo.svg" type="image/x-icon">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
-    <link rel="stylesheet" href="../style/vinhos.css">
+    <link rel="stylesheet" href="../style/promocoes.css">
 </head>
 
 <body>
 
 <!-- header -->
-
-<header>
-
-    <nav class="navbar">
-
-        <div class="container-fluid d-flex justify-content-between align-items-center" style="height: 100%; display: flex; justify-content: center; align-items: center;">
-            <!-- logo -->
-            <a class="navbar-brand d-flex align-items-center" style="height: 100%; margin-right: auto;">
-                <img src="../img/agnello_logo.svg" alt="Logo da Vinheira Agnello" style="max-height: 100%;">
-            </a>
-        
-            <!-- barra de pesquisa -->
-            <form class="d-flex align-items-center" role="search" style="height: 100%; width: 400px; margin-right: 6rem;">
-                <div class="input-group w-100">
-                    <input class="form-control" type="search" placeholder="O que você procura?" aria-label="Search"
-                    style="border-top-left-radius: 50px; border-bottom-left-radius: 50px; height: 100%;">
-                    <button class="btn btn-link search-button" style="border-top-right-radius: 50px; border-bottom-right-radius: 50px; height: 100%;" type="button" onclick="window.location.href='vinhos.html'">
-                        <i class="bi bi-search"></i>
-                    </button>
-                </div>
-            </form>
-        
-            <!-- login e cesta -->
-            <span class="d-flex align-items-center account" style="height: 100%;">
-                <a href=""><i class="bi bi-person-circle user-icon" style="font-size: 2rem; margin-right: 0.5rem;"></i></a>
-                <div class="d-flex flex-column ms-2 login" style="font-size: 0.8rem; margin-right: 4rem;">
-                    <p class="mb-0">Bem-vindo(a)</p>
-                    <p class="mb-0"><b><a href="">Entre</a></b> ou <b><a href="">Cadastre-se</a></b></p>
-                </div>
-                <a href=""><i class="bi bi-basket2 ms-3 basket-icon" style="font-size: 2rem; margin-right: 1rem;"></i></a>
-            </span>
-        </div>
-        
-    </nav>
-        
-    <!-- menu com links de navegação -->
-    <div class="navlink" style="background-color: #E3C8B4;">
-        <ul class="nav nav-underline justify-content-center" >
-            <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="./index.html">Home</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./vinhos.html">Vinhos</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./uva.html">Uva</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="./paises.html">Países</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="./promocoes.html">Promoções</a>
-            </li>
-            <li class="nav-item">
-            <a class="nav-link" href="./kits.html">Kits</a>
-            </li>
-        </ul>
-    </div>
-        
-</header>
+<%@include file="header.jsp" %>
 
 <!-- conteúdo -->
 
@@ -150,7 +93,7 @@
 
             <div class="col-9">
 
-                <h1>Vinhos</h1>
+                <h1>Promoções</h1>
                 <div class="container text-center emailCapture">
                     <div class="row">
                         <div class="col">
@@ -178,10 +121,10 @@
                         <div class="col">
 
                             <div class="card" style="width: 15rem;">
-                                <img src="../img/vinhos/vinhos1.svg" class="card-img-top" alt="Vinho Tinto Apex">
+                                <img src="../img/promocoes/promocoes1.svg" class="card-img-top" alt="Vinho Tinto Apex">
                                 <div class="card-body">
-                                    <h5 class="card-title">Vinho Tinto Apex</h5>
-                                    <p class="card-text"><b>R$ 399,90</b><br>até 4x sem juros no cartão</p>
+                                    <h5 class="card-title">Vinho Tinto Santo</h5>
+                                    <p class="card-text"><b>R$ 119,90</b><br>até 4x sem juros no cartão</p>
                                     <a href="#" class="btn btn-success">Comprar</a>
                                 </div>
                             </div>
@@ -191,10 +134,10 @@
                         <div class="col">
                             
                             <div class="card" style="width: 15rem;">
-                                <img src="../img/vinhos/vinhos1.svg" class="card-img-top" alt="Vinho Tinto Apex">
+                                <img src="../img/promocoes/promocoes1.svg" class="card-img-top" alt="Vinho Tinto Apex">
                                 <div class="card-body">
                                     <h5 class="card-title">Vinho Tinto Apex</h5>
-                                    <p class="card-text"><b>R$ 399,90</b><br>até 4x sem juros no cartão</p>
+                                    <p class="card-text"><b>R$ 154,90</b><br>até 4x sem juros no cartão</p>
                                     <a href="#" class="btn btn-success">Comprar</a>
                                 </div>
                             </div>
@@ -204,9 +147,9 @@
                         <div class="col">
                             
                             <div class="card" style="width: 15rem;">
-                                <img src="../img/vinhos/vinhos1.svg" class="card-img-top" alt="Vinho Tinto Apex">
+                                <img src="../img/promocoes/promocoes1.svg" class="card-img-top" alt="Vinho Tinto Apex">
                                 <div class="card-body">
-                                    <h5 class="card-title">Vinho Tinto Apex</h5>
+                                    <h5 class="card-title">Vinho Tinto Gold</h5>
                                     <p class="card-text"><b>R$ 399,90</b><br>até 4x sem juros no cartão</p>
                                     <a href="#" class="btn btn-success">Comprar</a>
                                 </div>
@@ -221,10 +164,10 @@
                         <div class="col">
 
                             <div class="card" style="width: 15rem;">
-                                <img src="../img/vinhos/vinhos1.svg" class="card-img-top" alt="Vinho Tinto Apex">
+                                <img src="../img/promocoes/promocoes2.svg" class="card-img-top" alt="Vinho Tinto Apex">
                                 <div class="card-body">
-                                    <h5 class="card-title">Vinho Tinto Apex</h5>
-                                    <p class="card-text"><b>R$ 399,90</b><br>até 4x sem juros no cartão</p>
+                                    <h5 class="card-title">Vinho Branco Apex</h5>
+                                    <p class="card-text"><b>R$ 299,90</b><br>até 4x sem juros no cartão</p>
                                     <a href="#" class="btn btn-success">Comprar</a>
                                 </div>
                             </div>
@@ -234,10 +177,10 @@
                         <div class="col">
                             
                             <div class="card" style="width: 15rem;">
-                                <img src="../img/vinhos/vinhos1.svg" class="card-img-top" alt="Vinho Tinto Apex">
+                                <img src="../img/promocoes/promocoes2.svg" class="card-img-top" alt="Vinho Tinto Apex">
                                 <div class="card-body">
-                                    <h5 class="card-title">Vinho Tinto Apex</h5>
-                                    <p class="card-text"><b>R$ 399,90</b><br>até 4x sem juros no cartão</p>
+                                    <h5 class="card-title">Vinho Branco Apex II</h5>
+                                    <p class="card-text"><b>R$ 329,90</b><br>até 4x sem juros no cartão</p>
                                     <a href="#" class="btn btn-success">Comprar</a>
                                 </div>
                             </div>
@@ -247,10 +190,10 @@
                         <div class="col">
                             
                             <div class="card" style="width: 15rem;">
-                                <img src="../img/vinhos/vinhos1.svg" class="card-img-top" alt="Vinho Tinto Apex">
+                                <img src="../img/promocoes/promocoes2.svg" class="card-img-top" alt="Vinho Tinto Apex">
                                 <div class="card-body">
-                                    <h5 class="card-title">Vinho Tinto Apex</h5>
-                                    <p class="card-text"><b>R$ 399,90</b><br>até 4x sem juros no cartão</p>
+                                    <h5 class="card-title">Vinho Rosé Apex</h5>
+                                    <p class="card-text"><b>R$ 389,90</b><br>até 4x sem juros no cartão</p>
                                     <a href="#" class="btn btn-success">Comprar</a>
                                 </div>
                             </div>
@@ -264,10 +207,10 @@
                         <div class="col">
 
                             <div class="card" style="width: 15rem;">
-                                <img src="../img/vinhos/vinhos1.svg" class="card-img-top" alt="Vinho Tinto Apex">
+                                <img src="../img/promocoes/promocoes3.svg" class="card-img-top" alt="Vinho Tinto Apex">
                                 <div class="card-body">
-                                    <h5 class="card-title">Vinho Tinto Apex</h5>
-                                    <p class="card-text"><b>R$ 399,90</b><br>até 4x sem juros no cartão</p>
+                                    <h5 class="card-title">Vinho Tinto Pamel</h5>
+                                    <p class="card-text"><b>R$ 169,90</b><br>até 4x sem juros no cartão</p>
                                     <a href="#" class="btn btn-success">Comprar</a>
                                 </div>
                             </div>
@@ -277,10 +220,10 @@
                         <div class="col">
                             
                             <div class="card" style="width: 15rem;">
-                                <img src="../img/vinhos/vinhos1.svg" class="card-img-top" alt="Vinho Tinto Apex">
+                                <img src="../img/promocoes/promocoes3.svg" class="card-img-top" alt="Vinho Tinto Apex">
                                 <div class="card-body">
-                                    <h5 class="card-title">Vinho Tinto Apex</h5>
-                                    <p class="card-text"><b>R$ 399,90</b><br>até 4x sem juros no cartão</p>
+                                    <h5 class="card-title">Vinho Tinto Santo II</h5>
+                                    <p class="card-text"><b>R$ 134,90</b><br>até 4x sem juros no cartão</p>
                                     <a href="#" class="btn btn-success">Comprar</a>
                                 </div>
                             </div>
@@ -290,10 +233,10 @@
                         <div class="col">
                             
                             <div class="card" style="width: 15rem;">
-                                <img src="../img/vinhos/vinhos1.svg" class="card-img-top" alt="Vinho Tinto Apex">
+                                <img src="../img/promocoes/promocoes3.svg" class="card-img-top" alt="Vinho Tinto Apex">
                                 <div class="card-body">
-                                    <h5 class="card-title">Vinho Tinto Apex</h5>
-                                    <p class="card-text"><b>R$ 399,90</b><br>até 4x sem juros no cartão</p>
+                                    <h5 class="card-title">Vinho Tinto Castro</h5>
+                                    <p class="card-text"><b>R$ 189,90</b><br>até 4x sem juros no cartão</p>
                                     <a href="#" class="btn btn-success">Comprar</a>
                                 </div>
                             </div>
@@ -313,57 +256,7 @@
 </section>
 
 <!-- rodapé -->
-
-<footer>
-
-    <div class="container-mlg text-center">
-        <div class="row">
-
-            <div class="col-sm">
-                
-                <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Vinhos</a></li>
-                    <li><a href="#">Uva</a></li>
-                    <li><a href="#">Países</a></li>
-                    <li><a href="#">Promoções</a></li>
-                    <li><a href="#">Kits</a></li>
-                    <li><a href="#">Sobre Nós</a></li>
-                    <li><a href="#">Política de Privacidade</a></li>
-                </ul>
-            </div>
-
-            <div class="col-sm">
-                <ul>
-                    <h1>Contato</h1>
-                    <li>(19) 3030-5080</li>
-                    <li><a href="mailto:sac@agnellovinhos.com">sac@agnellovinhos.com</a></li>
-                    <li>Rua Arnaldo Roque Brisque, 301 - Altos do Morumbi, Vinhedo - SP, 13280-000</li>
-                </ul>
-                <h1 class="social-media">Nossas Redes</h1>
-                <ul class="list-inline">
-                    <li class="list-inline-item"><a href=""><i class="bi bi-instagram"></i></a></li>
-                    <li class="list-inline-item"><a href=""><i class="bi bi-youtube"></i></a></li>
-                    <li class="list-inline-item"><a href=""><i class="bi bi-facebook"></i></a></li>
-                </ul>
-            </div>
-
-            <div class="col-sm">
-                <img src="../img/agnello_logo.svg" alt="Logo da Vinheira Agnello">
-                <h1>Inscreva-se na nossa <i>newsletter</i> gratuitamente</h1>
-                <form>
-                    <div class="input-group mb-3">
-                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="exemplo: tiago@bol.com" style="width: 70%;"> <!-- Ajustando a largura -->
-                        <button type="submit" class="btn btn-primary">Enviar</button>
-                    </div>
-                </form>
-            </div>
-            
-
-        </div>
-    </div>
-
-</footer>
+<%@include file="footer.jsp" %>
 
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
